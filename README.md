@@ -26,6 +26,7 @@ To use the Xabbo packet recorder:
 - You can edit the script path by changing "record_1.txt" on both scripts. This way, you can save multiple recordings.
 
 ### Notes
+- The code was created on Flash version. In theory, you can change the ClientType to Unity in the scripts, but I didn't test it.
 - You will need to have access to the same rooms that were recorded in order to properly replay the packets.
 - While playing the records, almost all CS packets are blocked. You'll still receive friend requests and console messages though.
 - The script won't record most of the UI interactions, since they are not handled by packets.
