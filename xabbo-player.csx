@@ -2,7 +2,6 @@ using System.Text.Json;
 using System;
 
 var whitelistedHeaders = new List<string>() { "Ping", "LatencyPingResponse", "FloorHeightMap", "NewFriendRequest", "NewConsole" };
-var incomingMessages = new Dictionary<string, int>();
 var clientType = Xabbo.ClientType.Flash;
 var filePath = "record_1.txt";
 
@@ -21,8 +20,6 @@ for (var i = 0; i <= 4000; i++)
 {
   if (Messages.In.TryGetHeader(clientType, (short)i, out Header header))
   {
-    incomingMessages.Add(header.GetName(clientType), i);
-    
     OnIntercept(header, e => 
     {
       if (whitelistedHeaders.Contains(header.GetName(clientType))) 
