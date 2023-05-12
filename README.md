@@ -1,7 +1,7 @@
 # Xabbo Packet Recorder
 This is a Habbo packet recording script that captures and saves data packets sent and received. The saved packets can be replayed as a recording.
 
-[![Xabbo Recording](https://github.com/QIN2DIM/hcaptcha-challenger/assets/34200697/a2780203-d6e9-4482-915d-9061a415ccc9)](https://www.youtube.com/watch?v=SBLT-rNKJpU)
+[![Xabbo Recording](https://github-production-user-asset-6210df.s3.amazonaws.com/34200697/237917268-a2780203-d6e9-4482-915d-9061a415ccc9.png)](https://www.youtube.com/watch?v=SBLT-rNKJpU)
 
 ### Xabbo Scripter
 It is a C# scripting interface for G-Earth. You will need it to run the packet recorder. Click [here] to download Xabbo.
